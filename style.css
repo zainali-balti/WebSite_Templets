@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainNav{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainNav .icons{
+    margin-top: 10px;
+}
+.mainNav .icons i{
+    padding-left: 30px;
+}
+.mainNav .search{
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.topHeadings{
+    width: 100%;
+    height: 220px;
+    background-color: aliceblue;
+}
+.topHeadings .textHeadings{
+    text-align: center;
+    padding-top: 50px;
+}
+.topHeadings .textHeadings h1{
+    font-size: 40px;
+}
+
+.topHeadings .textsubHeading{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 30px; */
+    /* background-color: yellow; */
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.topHeadings .textsubHeading h4{
+    padding-top: 7px;
+}
+.topHeadings .textsubHeading .textBtn{
+    background-color: black;
+    height:100%;
+    width: 100px;
+    color: white;
+    /* font-size: large; */  
+}
+.backImage{
+    background-image: url('pics/one.jpg');
+    width: 100%;
+    height: 150vh;
+}
+.backImage .innerImage {
+    /* background-color: yellow; */
+    width: 30%;
+    height: 100%;
+    
+}
+.backImage .innerImage .textOnImage{
+    width: 100%;
+    height: 20%;
+    margin-left: 10px;
+    color: white;
+    padding-top: 500px;
+}
+.backImage .innerImage .textOnImage h1 b{
+    font-size: 55px;
+    margin-top: 10px;
+}
+.backImage .innerImage .textOnImage .imageBtn{
+
+    height: 50px;
+    width: 130px;
+    font-size: larger;
+    /* background-color: aquamarine; */
+    margin-top: 10px;
+}
+.mainSection{
+    width: 100%;
+    /* height: 200vh; */
+    background-color: aqua;
+    padding-top: 30px;
+}
+.mainSection .innerSection{
+    width: 95%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+.mainSection .innerSection .bigImage{
+    width: 67%;
+    height: 100%;
+    background-color: white;
+    margin-top: 15px;
+    /* margin-bottom: 40px; */
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+.mainSection .innerSection .bigImage .format{
+    width: 97%;
+    height: 100%;
+    /* background-color: wheat; */
+    /* justify-content: space-around; */
+    margin: auto;
+}
+.mainSection .innerSection .bigImage .format .texts{
+    text-align: center;
+    margin-top: 30px;
+}
+.mainSection .innerSection .bigImage .format .Image{
+
+    margin-top: 20px;
+}
+.mainSection .innerSection .bigImage .format .Image img{
+    width: 100%;
+}
+.mainSection .innerSection .bigImage .format .pera{
+    margin-top: 30px;
+}
+.mainSection .innerSection .bigImage .format .pera p{
+    padding-top: 20px;
+}
+.mainSection .innerSection .bigImage .format .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.mainSection .innerSection .bigImage .format .buttons .one{
+    width: 90px;
+    height: 40px;
+    font-size: 23px;
+}
+.mainSection .innerSection .bigImage .format .buttons .two{
+    width: 120px;
+    height: 40px;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+}
+.mainSection .innerSection .bigImage .format hr{
+    margin-top: 40px;
+}
+.mainSection .innerSection .bigImage .format .footerImage{
+    display: flex;
+    width: 50%;
+    /* background-color: red; */
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 30px;
+}
+.mainSection .innerSection .bigImage .format .footerImage .image{
+    width: 22%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.mainSection .innerSection .bigImage .format .footerImage .image img{
+    width: 100%;
+    height: 100%;
+}
+.mainSection .innerSection .bigImage .format .footerImage .textFooter{
+    margin-top: 40px;
+}
+.mainSection .innerSection .sectionImages{
+
+    width: 31%;
+    height: 30%;
+    margin-top: 15px;
+}
+.mainSection .innerSection .sectionImages .smallImage{
+    width: 100%;
+    background-color: black;
+    height: 370px;
+}
+.mainSection .innerSection .sectionImages .smallImage .image1{
+    width: 100%;
+    height: 250px;
+}
+.mainSection .innerSection .sectionImages .smallImage .image1 img{
+    width: 100%;
+    height: 100%;
+}
+.mainSection .innerSection .sectionImages .smallImage .text{
+    width: 95%;
+    color: white;
+    /* background-color: black; */
+    margin: 10px;
+}
+.mainSection .innerSection .sectionImages .smallSection{
+    width: 100%;
+    margin-top: 40px;
+    height: 440px;
+    background-color: white;
+    
+}
+.mainSection .innerSection .sectionImages .smallSection .text{
+    color: white;
+    padding-left: 10px;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+}
+.mainSection .innerSection .sectionImages .smallSection .main{
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    justify-content: space-around;
+}
+.mainSection .innerSection .sectionImages .smallSection .main .imageText{
+    width: 35%;
+    height: 70px;
+}
+.mainSection .innerSection .sectionImages .smallSection .main .imageText img{
+    width: 100%;
+    height: 100%;
+}
+.mainSection .innerSection .sectionImages .smallSection .main .text1{
+
+    margin-top: 20px;
+}
+.mainSection .innerSection .sectionImages .smallSection hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainSection .innerSection .sectionImages .lastSection{
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+}
+.mainSection .innerSection .sectionImages .lastSection .Text11{
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    height: 60px;
+    padding-top: 10px;
+}
+.mainSection .innerSection .sectionImages .lastSection .nullSection{
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+    height: 220px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.mainSection .innerSection .sectionImages .lastSection .nullSection h4{
+    padding-top: 100px;
+}
+.sectionImages .firstSection{
+    width: 100%;
+}
+.sectionImages .firstSection .headingText{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding-left: 10px;
+    color: white;
+    padding-top: 10px;
+}
+.sectionImages .firstSection .buttonSection{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    width: 100%;
+    height: 160px;
+    
+
+}
+.sectionImages .firstSection .buttonSection .Fashion{
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-size: 17px;
+    width: 100px;
+}
+.sectionImages .firstSection .buttonSection button{
+    background-color: aqua;
+    border: none;
+    width: 70px;
+    height: 25px;
+    margin-top: 10px;
+}
+.sectionImages .imageLable{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+.sectionImages .imageLable .headingText{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.sectionImages .imageLable .lableImages{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: white; */
+
+}
+
+.sectionImages .imageLable .lableImages .imageOne{
+    width: 48%;
+    height: 140px;
+    margin-top: 20px;
+
+}
+.sectionImages .imageLable .lableImages .imageOne img{
+    width: 100%;
+    height: 100%;
+}
+.sectionImages .iconSection{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    margin-top: 30px;
+
+}
+.sectionImages .iconSection .headingText{
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    color: white;
+}
+.sectionImages .iconSection .icons{
+    padding-top: 10px;
+}
+.sectionImages .subsSection{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-top: 30px;
+ 
+}
+.sectionImages .subsSection .headingText{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+}
+.sectionImages .subsSection .innerSection1{
+    width: 95%;
+    margin: auto;
+}
+.sectionImages .subsSection .innerSection1 .peraInpBtn{
+    margin-top: 20px;
+    width: 100%;
+}
+.sectionImages .subsSection .innerSection1 .peraInpBtn p{
+    font-size: 18px;
+}
+.sectionImages .subsSection .innerSection1 .peraInpBtn input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.sectionImages .subsSection .innerSection1 .peraInpBtn .subs{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+}
+footer{
+
+    width: 100%;
+    background-color: rgb(96, 126, 126);
+    height: 200px;
+}
+footer .footerLast{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+footer .footerLast .topBtn{
+
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+footer .footerLast p{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+footer .footerLast p a{
+    color: white;
+}
+
+
